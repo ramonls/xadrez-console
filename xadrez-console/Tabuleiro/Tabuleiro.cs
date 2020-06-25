@@ -18,5 +18,10 @@ namespace xadrez_console
             Colunas = colunas;
             Pecas = new Peca[linhas, colunas];
         }
+
+        public Peca peca(int linhas, int coluna)
+        {
+            return Pecas[linhas, coluna];
+        }
     }
 }
