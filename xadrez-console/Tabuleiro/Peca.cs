@@ -17,7 +17,7 @@ namespace tabuleiro
         {
             Posicao = null;
             Tabuleiro = tabuleiro;
-            Cor = Cor;
+            Cor = cor;
             QuantidadeMovimentos = 0;
         }
     }
